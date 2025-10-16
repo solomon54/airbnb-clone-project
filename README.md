@@ -42,3 +42,19 @@ StayEase is a full-stack clone of Airbnb, a popular accommodation booking platfo
 ### Importance of User-Friendly Design
 
 A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success, as they build trust and encourage repeat visits—especially in a competitive space like accommodations where users expect seamless experiences akin to Airbnb.
+
+### Figma Design Specifications
+
+#### Color Styles
+
+- **Primary:** #FF5A5F – Vibrant red for buttons, accents, and interactive elements like "Book Now" calls-to-action.
+- **Secondary:** #008489 – Teal for links, icons, and subtle highlights to guide user flow.
+- **Background:** #FFFFFF – Crisp white for main pages, cards, and overall canvas to ensure readability.
+- **Text:** #222222 – Dark gray for primary headings and body text, providing strong contrast.
+- **Secondary Text:** #717171 – Muted gray for subtitles, descriptions, and metadata to layer information hierarchy.
+
+#### Typography
+
+- **Primary Font:** Circular, Medium (500 weight), 16px – Standard body text for optimal readability in paragraphs and labels.
+- **Headings:** Circular, Bold (700 weight), 24px-32px – Scalable sizes for titles, property names, and section headers to create visual emphasis.
+- **Secondary Text:** Circular, Book (400 weight), 14px – Lighter variant for captions, footnotes, and supporting details to maintain subtle distinction.
