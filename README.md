@@ -84,3 +84,15 @@ A well-designed booking system reduces friction in the user journey, increases c
 
 - **Scrum Master:** Facilitates agile ceremonies (standups, retros), removes impediments, promotes best practices, and fosters team morale.
   _Contribution:_ Optimizes workflow and collaboration, accelerating iterations and preventing burnout.
+
+## UI Component Patterns
+
+- **Navbar:** A persistent top navigation bar including the logo (StayEase branding), a central search bar for property queries (with placeholders for location/dates), and right-aligned user navigation (login/signup, profile dropdown, favorites icon).
+  _Features:_ Responsive collapse to hamburger menu on mobile; sticky positioning for scroll persistence.
+  _Reusability:_ Wraps all primary pages, extensible for future tabs like "Trips" or "Messages."
+- **Property Card:** A compact grid/list item displaying key listing details, such as a hero image (carousel-capable), title/location badges, price per night (with total estimate), rating stars (out of 5), and a heart icon for favoriting. _Features:_ Hover effects for quick actions; accessible alt text and ARIA labels.
+  _Reusability:_ Powers the Property Listing View grid; adaptable for search results or user saved lists with minor prop tweaks.
+
+- **Footer:** A bottom-fixed or static footer with site-wide links (About, Help, Careers), company info (copyright, legal), social media icons (X, Instagram, etc.), and a newsletter signup form.
+  _Features:_ Multi-column layout for desktop, stacked on mobile; subtle animations for link hovers.
+  _Reusability:_ Universal across pages; easy to update for global changes like new policies.
