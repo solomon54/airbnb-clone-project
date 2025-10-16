@@ -13,9 +13,9 @@ StayEase is a full-stack clone of Airbnb, a popular accommodation booking platfo
 
 ## Tech Stack
 
-- Frontend: HTML, CSS, JavaScript (React for component-based architecture)
-- Version Control: Git and GitHub
-- Design Tools: Figma for UI/UX mockups
+- **Frontend:** HTML, CSS, JavaScript (React for component-based architecture)
+- **Version Control:** Git and GitHub
+- **Design Tools:** Figma for UI/UX mockups
 
 ## UI/UX Design Planning
 
@@ -28,16 +28,16 @@ StayEase is a full-stack clone of Airbnb, a popular accommodation booking platfo
 
 ### Key Features
 
-- Property search and filtering: Allow users to find accommodations by location, dates, price, and amenities.
-- Detailed property viewing: Display high-quality images, descriptions, reviews, and an interactive booking calendar.
-- Secure checkout process: Handle payments, guest details, and confirmations with clear steps and error handling.
-- User authentication: Support sign-up, login, and profile management for personalized experiences.
+- **Property search and filtering:** Allow users to find accommodations by location, dates, price, and amenities.
+- **Detailed property viewing:** Display high-quality images, descriptions, reviews, and an interactive booking calendar.
+- **Secure checkout process:** Handle payments, guest details, and confirmations with clear steps and error handling.
+- **User authentication:** Support sign-up, login, and profile management for personalized experiences.
 
 ### Primary Pages
 
-- Property Listing View: Grid display of available properties with filters for location, dates, and price. Includes search bar and sorting options.
-- Listing Detailed View: Complete property details with images, amenities, host info, reviews, and a booking form for dates and guests.
-- Simple Checkout View: Streamlined payment and booking confirmation, including summary, payment method, and final verification.
+- **Property Listing View:** Grid display of available properties with filters for location, dates, and price. Includes search bar and sorting options.
+- **Listing Detailed View:** Complete property details with images, amenities, host info, reviews, and a booking form for dates and guests.
+- **Simple Checkout View:** Streamlined payment and booking confirmation, including summary, payment method, and final verification.
 
 ### Importance of User-Friendly Design
 
@@ -58,3 +58,29 @@ A well-designed booking system reduces friction in the user journey, increases c
 - **Primary Font:** Circular, Medium (500 weight), 16px – Standard body text for optimal readability in paragraphs and labels.
 - **Headings:** Circular, Bold (700 weight), 24px-32px – Scalable sizes for titles, property names, and section headers to create visual emphasis.
 - **Secondary Text:** Circular, Book (400 weight), 14px – Lighter variant for captions, footnotes, and supporting details to maintain subtle distinction.
+
+## Project Roles and Responsibilities
+
+- **Project Manager:** Oversees timelines, coordinates team efforts, manages deliverables, and resolves blockers.
+  _Contribution:_ Ensures on-time delivery and alignment, keeping the project on track for a cohesive launch.
+
+- **Frontend Developers:** Implements UI components, ensures responsive design, integrates with backend APIs, and optimizes performance.
+  _Contribution:_ Delivers intuitive, mobile-first interfaces that drive user engagement and mimic Airbnb's UX.
+
+- **Backend Developers:** Builds APIs, manages database schemas, implements business logic, and handles security.
+  _Contribution:_ Powers reliable data flows and scalability, enabling seamless features like search and payments.
+
+- **Designers:** Creates mockups, maintains design system (colors/typography), conducts UX research, and iterates based on feedback.
+  _Contribution:_ Crafts visually consistent, user-centered designs that reduce friction and boost conversions.
+
+- **QA/Testers:** Writes test cases, performs unit/integration testing, identifies bugs, and validates across devices/browsers.
+  _Contribution:_ Guarantees bug-free, high-quality output, minimizing post-launch issues and enhancing trust.
+
+- **DevOps Engineers:** Manages deployment pipelines, sets up CI/CD, handles server infrastructure, and monitors performance.
+  _Contribution:_ Streamlines releases and ensures reliable hosting, allowing focus on features over ops headaches.
+
+- **Product Owner:** Defines requirements, prioritizes features, represents stakeholders, and validates MVPs.
+  _Contribution:_ Keeps the product user-focused and viable, aligning tech with market needs for real impact.
+
+- **Scrum Master:** Facilitates agile ceremonies (standups, retros), removes impediments, promotes best practices, and fosters team morale.
+  _Contribution:_ Optimizes workflow and collaboration, accelerating iterations and preventing burnout.
