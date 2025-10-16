@@ -62,38 +62,38 @@ A well-designed booking system reduces friction in the user journey, increases c
 ## Project Roles and Responsibilities
 
 - **Project Manager:** Oversees timelines, coordinates team efforts, manages deliverables, and resolves blockers.
-  **Contribution:** Ensures on-time delivery and alignment, keeping the project on track for a cohesive launch.
+   **Contribution:** Ensures on-time delivery and alignment, keeping the project on track for a cohesive launch.
 
 - **Frontend Developers:** Implements UI components, ensures responsive design, integrates with backend APIs, and optimizes performance.
-  **Contribution:** Delivers intuitive, mobile-first interfaces that drive user engagement and mimic Airbnb's UX.
+   **Contribution:** Delivers intuitive, mobile-first interfaces that drive user engagement and mimic Airbnb's UX.
 
 - **Backend Developers:** Builds APIs, manages database schemas, implements business logic, and handles security.
-  **Contribution:** Powers reliable data flows and scalability, enabling seamless features like search and payments.
+   **Contribution:** Powers reliable data flows and scalability, enabling seamless features like search and payments.
 
 - **Designers:** Creates mockups, maintains design system (colors/typography), conducts UX research, and iterates based on feedback.
-  **Contribution:** Crafts visually consistent, user-centered designs that reduce friction and boost conversions.
+   **Contribution:** Crafts visually consistent, user-centered designs that reduce friction and boost conversions.
 
 - **QA/Testers:** Writes test cases, performs unit/integration testing, identifies bugs, and validates across devices/browsers.
-  **Contribution:** Guarantees bug-free, high-quality output, minimizing post-launch issues and enhancing trust.
+   **Contribution:** Guarantees bug-free, high-quality output, minimizing post-launch issues and enhancing trust.
 
 - **DevOps Engineers:** Manages deployment pipelines, sets up CI/CD, handles server infrastructure, and monitors performance.
-  **Contribution:** Streamlines releases and ensures reliable hosting, allowing focus on features over ops headaches.
+   **Contribution:** Streamlines releases and ensures reliable hosting, allowing focus on features over ops headaches.
 
 - **Product Owner:** Defines requirements, prioritizes features, represents stakeholders, and validates MVPs.
-  **Contribution:** Keeps the product user-focused and viable, aligning tech with market needs for real impact.
+   **Contribution:** Keeps the product user-focused and viable, aligning tech with market needs for real impact.
 
 - **Scrum Master:** Facilitates agile ceremonies (standups, retros), removes impediments, promotes best practices, and fosters team morale.
-  **Contribution:** Optimizes workflow and collaboration, accelerating iterations and preventing burnout.
+   **Contribution:** Optimizes workflow and collaboration, accelerating iterations and preventing burnout.
 
 ## UI Component Patterns
 
 - **Navbar:** A persistent top navigation bar including the logo (StayEase branding), a central search bar for property queries (with placeholders for location/dates), and right-aligned user navigation (login/signup, profile dropdown, favorites icon).
-  **Features:** Responsive collapse to hamburger menu on mobile; sticky positioning for scroll persistence.
-  **Reusability:** Wraps all primary pages, extensible for future tabs like "Trips" or "Messages."
+   **Features:** Responsive collapse to hamburger menu on mobile; sticky positioning for scroll persistence.
+   **Reusability:** Wraps all primary pages, extensible for future tabs like "Trips" or "Messages."
 - **Property Card:** A compact grid/list item displaying key listing details, such as a hero image (carousel-capable), title/location badges, price per night (with total estimate), rating stars (out of 5), and a heart icon for favoriting.
   **Features:** Hover effects for quick actions; accessible alt text and ARIA labels.
   **Reusability:** Powers the Property Listing View grid; adaptable for search results or user saved lists with minor prop tweaks.
 
 - **Footer:** A bottom-fixed or static footer with site-wide links (About, Help, Careers), company info (copyright, legal), social media icons (X, Instagram, etc.), and a newsletter signup form.
-  **Features:** Multi-column layout for desktop, stacked on mobile; subtle animations for link hovers.
-  **Reusability:** Universal across pages; easy to update for global changes like new policies.
+   **Features:** Multi-column layout for desktop, stacked on mobile; subtle animations for link hovers.
+   **Reusability:** Universal across pages; easy to update for global changes like new policies.
